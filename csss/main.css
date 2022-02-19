@@ -1,0 +1,76 @@
+/* Common styles */
+html{
+  box-sizing: border-box;
+}
+*, *::after, *::before{
+  box-sizing: inherit;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clear {
+  clear: both;
+}
+
+/* HEADER  */
+
+.site-header {
+  margin-bottom: 100px;
+}
+.header-container {
+  padding-top: 48px;
+}
+.logo {
+  float: left;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-list {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav-item {
+  float: left;
+  margin-left: 44px;
+}
+.nav-link {
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+.login .nav-link {
+  padding: 12px 34px;
+  color: #FFFFFF;
+  background-color: #FA5959;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all ease .5s;
+}
+.login .nav-link:hover {
+  border: 2px solid #FA5959;
+  background-color: white;
+  color: red;
+}
+
+/* HERO  */
+
